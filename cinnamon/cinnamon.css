@@ -79,10 +79,10 @@
 
 .applet-cornerbar {
   padding: 7px;
-  border-image: url('assets/cornerbar.png') 4; }
+  border-image: url('assets/item-normal.png') 4; }
 
 .applet-cornerbar-box:hover > .applet-cornerbar {
-  border-image: url('assets/cornerbar-hover.png') 4; }
+  border-image: url('assets/item-hover.png') 4; }
 
 .toggle-switch {
   width: 52px;
