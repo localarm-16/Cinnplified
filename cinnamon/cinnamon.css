@@ -83,7 +83,7 @@
   border: 1px solid grey;
   border-radius: 1px;
   background-gradient-start: rgba(255,255,255,0.3);
-  background-gradient-end: rgba(255,255,255,0.1);
+  background-gradient-end: rgba(255,255,255,0.2);
   background-gradient-direction: vertical; }
 
 .applet-cornerbar-box:hover > .applet-cornerbar {
@@ -280,8 +280,10 @@ StScrollBar StBin#trough {
   border: 1px solid grey; }
 
 .expo-workspaces-name-entry#selected, .switcher-list .item-box:selected StLabel {
-  background-color: transparent;
-  border-image: url('assets/item-normal.png') 8; }
+  background-gradient-start: #8b8b8b;
+  background-gradient-end: #4b4b4b;
+  background-gradient-direction: vertical;
+  border: 1px solid #e2e2e2; }
 
 .window-caption {
   color: white;
