@@ -172,16 +172,9 @@
   background-gradient-direction: vertical; }
 
 .menu-favorites-box {
-  color: white;
+  padding: 1px 1px;
   background-color: rgba(255,255,255,0.1);
-  border-radius: 4px;
-  border: 1px solid grey; }
-
-.starkmenu-favorites-box {
-  color: white;
-  background-color: rgba(255,255,255,0.1);
-  border-radius: 4px;
-  border: none; }
+  border-radius: 3px; }
 
 #appmenu-search-entry, #appmenu-search-entry:hover, #appmenu-search-entry:focus {  
   padding: 7px 7px;
@@ -190,10 +183,9 @@
   border: 1px solid grey; }
 
 #menu-search-entry, #menu-search-entry:hover, #menu-search-entry:focus {
-  margin: 1px 1px 1px 1px;
   padding: 6px 6px;
-  background-color: rgba(0,0,0,0.2);
-  border-radius: 2px;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 3px;
   border: 1px solid grey; }
 
 .popup-menu-item, .appmenu-category-button, .appmenu-application-button,
