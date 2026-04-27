@@ -5,7 +5,7 @@
 #panelLeft .applet-box:first-child:hover, #panelLeft .applet-box:first-child:active {
   padding-left: 6px;
   padding-right: 6px;
-  border-image: url('assets/orb-pressed.png') 8; }
+  border-image: url('assets/glow.png') 8; }
 
 #panelRight .applet-box:hover {
   padding-left: 6px;
