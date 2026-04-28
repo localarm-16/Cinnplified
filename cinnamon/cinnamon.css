@@ -2,29 +2,22 @@
   color: white;
   border-image: url('assets/panel.png') 8; }
 
-#panelLeft .applet-box:first-child:hover, #panelLeft .applet-box:first-child:active {
+#panel .applet-box:hover, #panel .applet-box:active {
   padding-left: 6px;
   padding-right: 6px;
   border-image: url('assets/tray-pressed.png') 8; }
 
-#panelRight .applet-box:hover {
-  padding-left: 6px;
-  padding-right: 6px;
-  border-image: url('assets/tray-pressed.png') 4; }
-
 .applet-cornerbar {
   padding: 4px;
   margin-top: 2px;
-  border: 1px solid grey;
-  border-radius: 1px;
-  background-gradient-start: rgba(255,255,255,0.3);
-  background-gradient-end: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.3);
+  background-gradient-start: rgba(255,255,255,0.2);
+  background-gradient-end: rgba(255,255,255,0.1);
   background-gradient-direction: vertical; }
 
 .applet-cornerbar-box:hover > .applet-cornerbar {
-  opacity: 50%;
-  border: 1px solid rgba(255,255,255,0.7);
-  background-gradient-start: rgba(255,255,255,0.6);
+  border: 1px solid rgba(255,255,255,0.6);
+  background-gradient-start: rgba(255,255,255,0.5);
   background-gradient-end: rgba(255,255,255,0.4);
   background-gradient-direction: vertical; }
 
@@ -172,7 +165,7 @@
   background-gradient-direction: vertical; }
 
 .menu-favorites-box {
-  padding: 1px 1px;
+  padding: 2px 2px;
   background-color: rgba(255,255,255,0.1);
   border-radius: 3px; }
 
@@ -185,7 +178,7 @@
 #menu-search-entry, #menu-search-entry:hover, #menu-search-entry:focus {
   padding: 6px 6px;
   background-color: rgba(0,0,0,0.1);
-  border-radius: 3px;
+  border-radius: 2px;
   border: 1px solid grey; }
 
 .popup-menu-item, .appmenu-category-button, .appmenu-application-button,
@@ -226,14 +219,12 @@ StScrollBar StBin#trough {
 .popup-separator-menu-item {
   border: 1px solid rgba(255,255,255,0.1); }
 
-.hover-icon {
-  margin: 4px 0 10px 0;
-  border: 2px solid transparent; }
+.hover-icon, .hover-user-icon {
+  margin-bottom: 17px;
+  border: 7px solid transparent; }
 
-.hover-user-icon {
-  margin: 4px 0 10px 0;
-  border: 2px solid grey;
-  border-radius: 4px; }
+.hover-user-icon { 
+  border-image: url('assets/box.png') 4; }
 
 .user-icon {
   border: 2px solid grey;
@@ -241,20 +232,20 @@ StScrollBar StBin#trough {
 
 .starkmenu-quit-dropdown-button {
   margin-left: 5px;
-  margin-top: 48px;
+  margin-top: 47px;
   border-image: url('assets/shutdown.png') 8; }
 
 .starkmenu-quit-dropdown-button-selected {
   margin-left: 5px;
-  margin-top: 48px;
+  margin-top: 47px;
   border-image: url('assets/shutdown-hover.png') 8; }
 
 .starkmenu-arrow-dropdown-button {
-  margin-top: 48px;
+  margin-top: 47px;
   border-image: url('assets/arrow.png') 8; }
 
 .starkmenu-arrow-dropdown-button-selected {
-  margin-top: 48px;
+  margin-top: 47px;
   border-image: url('assets/arrow-hover.png') 8; }
 
 .calendar-day-base:hover {;
