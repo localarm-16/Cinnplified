@@ -1,4 +1,5 @@
-![Preview](cinnamon/screenshot.png)
+ [GitHub stars](https://img.shields.io/github/stars/localarm-16/Cinnplified?style=for-the-badge&color=orange&logo=github)
+ [Preview](cinnamon/screenshot.png)
 
 Note: The following theme only work for the Cinnamon desktop environment.
 -
