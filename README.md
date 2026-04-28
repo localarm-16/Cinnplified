@@ -7,5 +7,3 @@ Credits to: https://github.com/B00merang-Project/Windows-7 (for the PNG assets a
 How to install?
 -
 Download the themes folder, extract it to the themes directory i.e. /home/USERNAME/.themes and apply in themes settings.
-
-/* Test Update */
